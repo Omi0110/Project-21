@@ -31,7 +31,7 @@ function hasCollided(bullet, wall){
 }
 
 function draw() {
-  background(255,255,255);
+  background(0, 0, 0);
   
   if(hasCollided(bullet, wall))
   {
